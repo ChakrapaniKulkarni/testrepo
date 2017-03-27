@@ -16,9 +16,7 @@ public class DerbyConnectionTest {
 	public static void main(String args[]){
 		System.out.println("hello");
 		createConnection();
-       // insertRestaurants(5, "LaVals", "Berkeley");
         selectRestaurants();
-      //  shutdown();
 	}
 	private static void createConnection()
     {
