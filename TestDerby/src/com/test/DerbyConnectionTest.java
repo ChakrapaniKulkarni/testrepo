@@ -23,7 +23,7 @@ public class DerbyConnectionTest {
         try
         {
             Class.forName("org.apache.derby.jdbc.ClientDriver").newInstance();
-            //Get a connection
+            //Get a connection derby
             conn = DriverManager.getConnection(dbURL); 
         }
         catch (Exception except)
