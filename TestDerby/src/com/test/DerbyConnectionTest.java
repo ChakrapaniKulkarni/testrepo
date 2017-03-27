@@ -14,7 +14,7 @@ public class DerbyConnectionTest {
 	    private static Connection conn = null;
 	    private static Statement stmt = null;
 	public static void main(String args[]){
-		System.out.println("hello");
+		System.out.println("hello world");
 		createConnection();
         selectRestaurants();
 	}
